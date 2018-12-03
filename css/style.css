@@ -1,0 +1,140 @@
+/** base styles **/
+
+body{
+    background-color: darkcyan;
+    color: #fff;
+	font-family: 'Helvetica', sans-serif;
+}
+
+h1{
+	margin: 0;
+}
+
+hr{
+	color:  #008B8B;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/** layout styles **/
+
+main{
+	background-color: navajowhite;
+}
+
+header{
+	line-height: 3em;
+	margin: 0 auto;
+    color: #fff;
+    background-color: darkcyan;
+}
+
+header h1{
+	font-size: 2em;
+	text-align: center;
+}
+
+footer{
+    color: #fff;
+    background-color: #008B8B;
+}
+
+footer p{
+	font-size: 1.25em;
+	text-align: center;
+}
+
+/** module styles **/
+
+#clipboard{
+	display: table;
+	margin: 0 auto;
+	min-width: 360px;
+	max-width: 540px;
+}
+
+#clipboard p{
+	background-color: darkcyan;
+	text-align: center;
+}
+
+#clipboard ul{
+	background-color: darkcyan;
+	padding: 0.85em;
+}
+
+#offense{
+		display: table-cell;
+		width: 50%;
+}
+
+#defense{
+		display: table-cell;
+		width: 50%;
+}
+
+#creative-way{
+	height: auto;
+	margin: 0 auto;
+	max-width: 670px;
+	padding: 1em 0;
+}
+
+#creative-way .title{
+	color: #000;
+}
+
+#offense-creative{
+	background-color: white;
+	border-radius: 0.5em;
+	height: 240px;
+	padding: 1em;
+}
+
+#defense-creative{
+	background-color: white;
+	border-radius: 0.5em;
+	height: 240px;
+	padding: 1em;
+}
+
+.title{
+	font-weight : bold;
+	margin: 0.1em;
+}
+
+.draggable{
+	width: auto;
+	height: auto;
+	float: left;
+    margin-left: 10px;
+}
+
+.draggable p{	
+	border-radius: 2px;
+	font-size: 0.95em;
+	padding: 0.25em;
+	text-align: center;
+}
+
+#p1 p{
+	background-color: #FF0000;
+} 
+
+#p2 p, #p9 p, #p10 p{
+	background-color: #008000;
+}
+
+#p3 p, #p4 p, #p7 p, #p8 p{
+	background-color: #0678be;
+}
+
+#p5 p, #p12 p{
+	background-color: #808080;
+}
+
+#p6 p, #p11 p{
+	background-color: #FFA500;
+}
