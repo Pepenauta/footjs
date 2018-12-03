@@ -1,4 +1,4 @@
-##Footjs
+## Footjs
 
 Footjs is a webapp that allows you to organize the alignment of a football team. Use the interact.js library.
 
